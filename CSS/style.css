@@ -14,9 +14,9 @@ body {
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: rgb(255, 206, 72);
-    --clr-dark: #421e22;
-    --clr-accent: #58a6a6;
+    --clr-light: #caebff;
+    --clr-dark: #1a2f47;
+    --clr-accent: #ffac8b;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -410,7 +410,7 @@ header {
 /* footer */
 
 .footer {
-    background: rgb(3, 3, 3);
+    background: rgb(41, 41, 41);
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
