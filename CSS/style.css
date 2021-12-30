@@ -14,9 +14,9 @@ body {
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: rgb(255, 206, 72);
+    --clr-dark: #421e22;
+    --clr-accent: #58a6a6;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
