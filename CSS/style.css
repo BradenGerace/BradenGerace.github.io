@@ -382,18 +382,23 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    
 }
 
 .portfolio__img {
     transition: 
         transform 350ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    width: 610px;
+    height: 610px;
+    object-fit: fill;
 }
 
 .portfolio__item:focus {
