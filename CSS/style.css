@@ -401,7 +401,7 @@ header {
 .portfolio {
     display:block;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-
+    align-items: center;
 }
 
 .portfolio__img {
@@ -410,8 +410,9 @@ header {
         opacity 250ms linear;
     width: 610px;
     height: 610px;
-    object-fit: fill;
-    
+    object-fit:contain;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio__item:focus {
