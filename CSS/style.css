@@ -387,13 +387,6 @@ header {
     .portfolio__item {
         background: var(--clr-dark);
         overflow: hidden;
-        max-width: 100%;
-        min-width: 25%;
-        height: auto;
-        left: 0px;
-        right: 0px;
-        position: relative;
-        z-index: 2;
     }
 }
 
@@ -406,7 +399,7 @@ header {
 }
 
 .portfolio {
-    display: grid;
+    display:block;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 
 }
